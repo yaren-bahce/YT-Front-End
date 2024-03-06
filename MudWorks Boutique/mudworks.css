@@ -1,0 +1,22 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    fon
+}
+h1{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.koleksiyon {
+    background-color: #faf6ea;
+}
+footer {
+    background-color: #f5edd6;
+}
+.koleksiyon {
+    border: 10px solid #5F7D90; /* Kutunun kenarlığını oluşturur */
+  padding: 250px; /* Kutu içeriği ile kenarlık arasındaki boşluğu belirler */
+  background-color: #fcf9f0; /* Kutu arka plan rengini ayarlar */
+  max-width: 600px; /* Kutu genişliğini belirler */
+  margin: 0 auto; /* Kutuyu yatay olarak merkezler */
+}
+.videolar {
+  max-width: 100%; /* Videoyu en fazla sayfa genişliği kadar yapar */
+  height: auto; /* Orantılı olarak videoyu boyutlandırır */
+}
