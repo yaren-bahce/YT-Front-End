@@ -1,14 +1,13 @@
 body{   
     font-family: Arial, sans-serif;
-    margin: 2px;
-    padding: 2px;
-        box-sizing: border-box;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        align-items: center;
-        display: flex;
+    margin: 0;
+    padding: 0;
+        
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
 }
 #googlelogo{
     width: 400px;
@@ -16,54 +15,70 @@ body{
     margin: auto;
 }
 #searchbar{
-    width: 800px;
-    height: 80px;
+    width: 811px;
+    height: 90px;
     background-color:#eeeeee ;
-    margin: 2px;
+    margin: auto;
 }
 .form{
     position: relative;
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin: 2 px;
-}
-.box form{
-    margin: auto
+    padding: 8px;
 }
 .buttons{
-    margin: 2px;
+    padding: 3px 6px;
+    font-weight:700px;
+    position:relative;
+    margin: auto;
+    top:-20%;
 }
 .searchboxes {
-    display: flex;
+    display: grid;
+    grid-template-columns: 0.9fr 0.5fr 1fr;
+    gap: 2px;
     width: 800px;
-    position: relative;
-    display: flex;
-    margin: 3 0;
+    margin: 2px 0px;
 }
-
-#box1, #box2, #box3 {
-    flex: 1;
+#box1, #box2, #box3, #box3 form {
+    width: 100%;
     padding: 5px;
-    height: 80px;
+    height:80px;
     position: relative;
-    display:flex;
-    flex-direction: column;
+    display:grid;
     text-align: center;
-    margin: 0 2;
 }
 #box1{
     background-color: 7ee5da;
+    width: 280px;
 }
 #box2{
     background-color: 70ccc2;
+    width: 180px;
 }
 #box3{
     background-color: 62b3aa;
 }
-.Copyright {
+.Copyright p{
     text-align: center;
+    font-weight: 500px;
+    font-size: small;
 }
-.labels p{
-    font-size:0.8rem;
+section div div a {
+    font-size: 0.8rem;
+}
+section div div form {
+    font-size: 0.8rem;
+}
+.getgoogle{
+    width: fit-content;
+    height:fit-content;
+    position: relative;
+    top: -40%;
+    margin: auto;
+}
+#form2{
+    position: relative;
+    top: -20%;
 }
