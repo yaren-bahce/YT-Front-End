@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:orbitron;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+h1, h2, h3, p, a {
+    color: #03318C;
+    text-decoration: none;
+}
+h1{
+    font-size: 1.3rem;
+}
+a{
+    font-size: 0.8rem;
+}
+.navbar-footer{
+    background-color: #f2ede4ab;
+    box-shadow: 
+    2px 2px 10px 5px #f2ede4ab;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: +1;
+    padding: 5px;
+}
+#footer{
+    background-color: #f2ede4ab;
+    box-shadow: 
+    0px 0px 10px 1px #03318c62;
+    background-color: none;
+    position:absolute;
+    bottom: -250px;
+    margin-bottom: 0;
+}
+#footer h1 {
+    font-size: 0.8rem;
+}
+#social a svg{
+    position: relative;
+    top: 0;
+    width: 30px;
+    padding: 8px;
+    align-items: center;
+    transform: 50% 50%;
+}
+#social a svg:hover{
+    width: 33px;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbar{
+    position: fixed;
+}
+#navbar:hover{
+    box-shadow: 
+    2px 2px 10px 1px #03318c62;
+    transition: all 0.5s ease;
+}
+#logo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: #03318C;
+    display: inline-block;
+    transform: 50% 50%;
+}
+#logo:hover{
+    text-decoration: underline  #03318C;
+    text-decoration-thickness: 2px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 2px;
+    border-radius: 5px;
+    padding: 1px;
+    list-style-type:none;
+    align-items: center;
+    justify-content:center;
+}
+nav ul li a {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+nav ul li:hover, #footer a h1:hover {
+    text-decoration: underline  #03318C;
+    text-decoration-thickness: 2px;
+}
+nav ul li a:hover{
+    color:#03318C;
+    font-weight: bold;
+}
+body{
+    background-color: #F2EDE4;
+}
+.arrowbtn{
+    position:fixed;
+    display: inline;
+    z-index: 4;
+    top: 85%;
+    transform: 50% 50%;
+    right: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding: 8px;
+    margin: 5px;
+}
+.arrowbtn:hover{
+    top: 84%;
+    transition: all 1s ease;
+}
+.arrowbtn svg{
+    padding: 5px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: #03318c18;
+    box-shadow: 
+    2px 2px 10px 1px #03318c62;
+}
+.arrowbtn svg:hover{
+    transition: all 1s ease;
+    border-top: #03318C solid 3px;
+    border-radius: 0;
+}
+.arrowbtn svg:active{
+    background-color: #d9160475;
+    border: 0;
+    transition: all 0.1s ease;
+}
